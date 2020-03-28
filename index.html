@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 70vh;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-success font-weight-bold">Techno</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Team</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </div>    
+        </div>
+    </nav>
+    <br><br>
+
+    <!--Image Slider-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/img1.jpg" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h1 class="display-4">Web Development</h1>
+                    <h3>We provide various web solutions</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/img2.jpg" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="images/img3.jpg" width="1100" height="500">
+            </div>
+
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
+       
+    </div>
+
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">We provide various web services at reasonable price.We provide various web services at reasonable price. 
+                    We provide various web services at reasonable price. We provide various web services at reasonable price.
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-2">
+                <button class="btn btn-success" type="button">Order Now</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    <section class="container services text-center">
+        <h1>Our Services</h1>
+        <div class="row rowsetting">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-info">
+                    <i class="fa fa-desktop fa-3x text-white"></i>
+                </div>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione rerum perferendis at temporibus! Illum quae, molestiae ipsa odio beatae nesciunt harum enim aut atque magnam rerum, quas assumenda, eos odit!</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-info">
+                    <i class="fa fa-search fa-3x text-white"></i>
+                </div>
+                <h2>SEO Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione rerum perferendis at temporibus! Illum quae, molestiae ipsa odio beatae nesciunt harum enim aut atque magnam rerum, quas assumenda, eos odit!</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-info">
+                    <i class="fa fa-lock fa-3x text-white"></i>
+                </div>
+                <h2>Web Security</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione rerum perferendis at temporibus! Illum quae, molestiae ipsa odio beatae nesciunt harum enim aut atque magnam rerum, quas assumenda, eos odit!</p>
+            </div>
+        </div>
+    </section>
+    <!--Our Products-->
+    <section class="product-section bg-light">
+        <div class="container text-center">
+            <h2>Our Products</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/prod2.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Qwilo Website</h2>
+                            <p class="card-text">responsive website</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/prod2.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Rag Hall</h2>
+                            <p class="card-text">responsive website</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/prod2.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Website Design</h2>
+                            <p class="card-text">responsive website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/prod2.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Website Design</h2>
+                            <p class="card-text">responsive website</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/prod2.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Website Design</h2>
+                            <p class="card-text">responsive website</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/prod2.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Website Design</h2>
+                            <p class="card-text">responsive website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Our Team-->
+    <section class="team">
+        <div class="container text-center">
+            <h2>Our Team</h2>
+            <div class="row teamsetting">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <figure class="figure">
+                        <img src="images/profilepic.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                    </figure>
+                    <figcaption>
+                        <h4>Sagar Maskey</h4>
+                        <p class="figure-caption">Web Developer</p>
+                    </figcaption>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <figure class="figure">
+                        <img src="images/profilepic.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                    </figure>
+                    <figcaption>
+                        <h4>Sagar Maskey</h4>
+                        <p class="figure-caption">Web Developer</p>
+                    </figcaption>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <figure class="figure">
+                        <img src="images/profilepic.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                    </figure>
+                    <figcaption>
+                        <h4>Sagar Maskey</h4>
+                        <p class="figure-caption">Web Developer</p>
+                    </figcaption>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h6 class="text-center bg-dark text-white">Copyright C 2019</h6>
+    </footer>
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
